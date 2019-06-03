@@ -2,6 +2,8 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 
+import pandas
+
 def generateParticipant(first_name, surname):
     name = f"{first_name} {surname}"
     badge = Image.open("./resources/participant.png")
